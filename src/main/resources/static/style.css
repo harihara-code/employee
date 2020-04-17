@@ -1,0 +1,24 @@
+ul li {
+
+	list-style-type : none;
+	padding: 10px;
+}
+
+body {
+	background-color: white;
+	
+}
+
+.jumbotron {
+	background-color: white;
+		
+}
+
+img {
+	width: 700px;
+	height: 600px;
+}
+.no-padding{
+	padding:0px;
+	margin:0px;	
+}

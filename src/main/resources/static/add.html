@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./jsfile.js"></script>
+<script>
+	$(function(){
+		$('#addEmployeeButton').click(function(){
+			console.log("button clicked");
+			sendJsonData();
+		});
+	});
+</script>
+</head>
+<body>
+	<form name="addForm">
+		<label for="name">Enter employee name :</label><input type="text" name="name" id="empname"/>
+		<br/>
+		<label for="mobile">Enter mobile no.</label> <input type="text" name="mobile" id="empmobile"/>
+		<br/>
+		<input type="button" value="Add Employee" id="addEmployeeButton"/>
+	</form>
+</body>
+</html>
